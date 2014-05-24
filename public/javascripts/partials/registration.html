@@ -1,0 +1,38 @@
+<div class='container'>
+	<!-- View 1 will filter by name. -->
+	<title>Registration Partial</title>
+	<h2>Registration</h2>
+	<div class="row">
+		<div class="form-group">
+			<label for="email" class="control-label"><span class="glyphicon glyphicon-envelope"></span> Email:</label>
+			<input type="text" class="form-control" name="email" ng-model="loginUser.email" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group">
+			<label for="password" class="control-label"><span class="glyphicon glyphicon-lock"></span> Password:</label>
+			<input type="password" class="form-control" name="password" ng-model="loginUser.password" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group">
+			<label for="first_name" class="control-label"><span class="glyphicon glyphicon-pencil"></span> First Name:</label>
+			<input type="first_name" class="form-control" name="first_name" ng-model="loginUser.first_name" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group">
+			<label for="last_name" class="control-label"><span class="glyphicon glyphicon-pencil"></span> Last Name:</label>
+			<input type="last_name" class="form-control" name="last_name" ng-model="loginUser.last_name" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group">
+			<label for="birthdate" class="control-label"><span class="glyphicon glyphicon-pencil"></span> Birthdate:</label>
+			<input type="date" class="form-control date" name="birthdate" ng-model="loginUser.birthdate" />
+		</div>
+	</div>	
+	<div class="row">
+		<button class="btn btn-primary col-md-offset-4 col-md-3"data-ng-click="registerUser()">Register</button>
+	</div>
+</div>

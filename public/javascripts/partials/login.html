@@ -1,0 +1,23 @@
+<div class='container'>
+	<!-- View 1 will filter by name. -->
+	<head>
+		<title>Login Partial</title>
+	</head>
+
+	<h2>Login</h2>
+	<div class="row">
+		<div class="form-group">
+			<label for="email" class="control-label"><span class="glyphicon glyphicon-envelope"></span> Email:</label>
+			<input type="text" class="form-control" name="email" ng-model="loginUser.email" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group">
+			<label for="email" class="control-label"><span class="glyphicon glyphicon-lock"></span> Password:</label>
+			<input type="password" class="form-control" name="password" ng-model="loginUser.password" />
+		</div>
+	</div>
+	<div class="row">
+		<button class="btn btn-primary col-md-offset-4 col-md-3"data-ng-click="loginUser()">Login</button>
+	</div>
+</div>
